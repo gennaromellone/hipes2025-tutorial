@@ -4,7 +4,7 @@ from dagon.task import DagonTask, TaskType
 # Check if this is the main
 if __name__ == '__main__':    
     # Create the orchestration workflow
-    workflow=Workflow("DataFlow-Demo")
+    workflow=Workflow("HiPES2025-Workflow-Demo")
 
     # The task a
     taskA = DagonTask(TaskType.BATCH, "A", "echo 2 > x.txt; echo 3 > y.txt")
