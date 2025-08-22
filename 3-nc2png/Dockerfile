@@ -1,6 +1,5 @@
-# Dockerfile: immagine con ambiente pronto a convertire .nc → .png
+# Dockerfile: simple container to convert .nc → .png
 FROM python:3.11-slim
-
 
 ENV MPLBACKEND=Agg \
     PYTHONDONTWRITEBYTECODE=1 \

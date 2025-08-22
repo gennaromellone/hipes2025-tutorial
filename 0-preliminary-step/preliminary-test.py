@@ -4,7 +4,7 @@ from dagon.task import DagonTask, TaskType
 # Check if this is the main
 if __name__ == '__main__':    
     # Create the orchestration workflow
-    workflow=Workflow("DataFlow-Demo")
+    workflow=Workflow("DataFlow-Demo", config_file="../dagon.ini")
 
     # The task a
     taskA = DagonTask(TaskType.BATCH, "A", "mkdir output; hostname > output/f1.txt")
