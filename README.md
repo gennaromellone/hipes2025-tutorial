@@ -89,7 +89,7 @@ git clone https://git.isac.cnr.it/montella/globone-glowpp
 cd globone-glowpp
 
 # Download initial/boundary conditions (IC/BC)
-wget -q http://wilma.to.isac.cnr.it/diss/globo/globo-ic-bc-20241016.tar.gz
+wget http://wilma.to.isac.cnr.it/diss/globo/globo-ic-bc-20241016.tar.gz
 mkdir -p input_data
 tar -xzf globo-ic-bc-20241016.tar.gz -C input_data
 ```
