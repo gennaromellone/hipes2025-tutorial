@@ -1,7 +1,7 @@
 # DAGonCAPIO and GLOBO-GLOWPP developing a computational workflow for orchestrating a global weather forecasting model 
 **HiPES Workshop (Euro-Par 2025)**
 
-**Credits:** Developed by Gennaro Mellone, Dario Caramiello, Raffaele Montella for the HiPES 2025 Tutorial Session (Euro-Par 2025)
+**Credits:** Developed by Gennaro Mellone, Dario Caramiello, Raffaele Montella (University of Naples "Parthenope")for the HiPES 2025 Tutorial Session (Euro-Par 2025)
 
 ---
 ## Introduction
