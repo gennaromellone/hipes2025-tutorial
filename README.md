@@ -123,10 +123,10 @@ Build a small container that reads a NetCDF file and produces a **PNG** image, s
 
 **Commands**
 ```bash
-cd 3-nc2png/
+cd 3-map2png/
 
 # Build the image used for conversion (become root only if needed)
-docker build -t convert-png .
+docker build -t map2png-png .
 
 # Run the visualization workflow
 python hipes-workflow.py
@@ -158,5 +158,5 @@ You’re now ready to adapt, extend, or scale this pipeline for research and pro
 
 
 ## Useful links
-- [DagonStar GitHub](https://github.com/montella/dagonstar)  
+- [DagonStar GitHub](https://github.com/DagOnStar/dagonstar)  
 - [PyGLOBO Project](https://git.isac.cnr.it/montella/globone-glowpp)  

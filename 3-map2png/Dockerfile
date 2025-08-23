@@ -11,8 +11,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir xarray netCDF4 matplotlib numpy
+RUN pip install --no-cache-dir xarray netCDF4 matplotlib numpy geopandas shapely
 
-COPY convert.py /app/convert.py
+COPY shapes/ shapes/
+COPY map2png.py /app/map2png.py
 
 CMD ["/bin/bash"]
