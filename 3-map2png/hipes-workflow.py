@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # Create the orchestration workflow object
     # - "HiPES2025-Workflow-Demo" is the workflow name
     # - configuration options are loaded from dagon.ini
-    workflow = Workflow("HiPES2025-Workflow-Demo", config_file="dagon.ini")
+    workflow = Workflow("HiPES2025-Workflow-Demo", config_file="../dagon.ini")
 
     # --- Task A: Simple batch task ---
     # This is just a placeholder step to demonstrate file creation.
