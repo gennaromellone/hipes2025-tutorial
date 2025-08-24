@@ -26,9 +26,10 @@ if __name__ == '__main__':
     # - configuration options are loaded from dagon.ini
     workflow = Workflow("HiPES2025-Workflow-Demo", config_file="../dagon.ini")
 
-    # --- Task A: Simple batch task ---
-    # This is just a placeholder step to demonstrate file creation.
-    # It writes two numbers into text files (x.txt and y.txt).
+    # --- Task A: Generate configuration data ---
+    # In this task we are going to generate configuration data useful for the next task.
+    # We will set "procx" and "procx" for setting the right number of cores required by PyGlobo, and "date"
+    # a date to forecast.
     taskA = DagonTask(TaskType.BATCH, "A", 
                       " echo 2 > procx.txt; \
                         echo 3 > procy.txt; \

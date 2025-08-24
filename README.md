@@ -126,7 +126,7 @@ Build a small container that reads a NetCDF file and produces a **PNG** image, s
 cd 3-map2png/
 
 # Build the image used for conversion (become root only if needed)
-docker build -t map2png-png .
+docker build -t map2png .
 
 # Run the visualization workflow
 python hipes-workflow.py
