@@ -8,7 +8,7 @@
 This tutorial walks you through a reproducible **computational workflow** for orchestrating a **global weather forecasting model**.  
 Using **DAGonStar** as the orchestrator in combination with **Globo GLOWPP**, you will:
 
-1. **Simulation Preparation** — create a YAML configuration with PyGLOBO parameters.  
+1. **Simulation Preparation** — create a configuration task with PyGLOBO parameters.  
 2. **PyGLOBO Run** — launch the PyGLOBO container to produce a NetCDF forecast.  
 3. **Result Visualization** — convert the NetCDF output into a PNG image.
 
