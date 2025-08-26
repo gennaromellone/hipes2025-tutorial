@@ -55,7 +55,7 @@ if __name__ == '__main__':
     taskC = DagonTask(
         TaskType.DOCKER,
         "C",
-        "/app/map2png.py --in workflow:///B/output.nc --out result.png --var va --shp shapes/world-continents.shp ",
+        "/app/map2png.py --in workflow:///B/output.nc --out result.png --var va --shp /app/shapes/world-continents.shp ",
         image="map2png"
     )
 
